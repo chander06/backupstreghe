@@ -12,7 +12,7 @@ import porchettaImg from '../../imports/IMG-20250913-WA0000.jpg';
 import dolciImg1 from '../../imports/677adf1d-ad30-4369-b9ad-16f21ada643f.jpeg';
 import dolciImg2 from '../../imports/62b58866-da86-4b87-a40c-f9109c78f04b.jpeg';
 import cantinaImg from '../../imports/fc666f90-5247-4de2-9807-6c8601342a10.jpeg';
-import logoImg from '../../imports/IMG_0464_2.png';
+import logoImg from '../../imports/logo-strega-trasparente.png';
 
 type Lang = 'it' | 'en';
 
@@ -239,8 +239,8 @@ export default function HomePage() {
             src={logoImg}
             alt=""
             aria-hidden="true"
-            className="absolute inset-0 w-full h-full object-cover object-left pointer-events-none select-none"
-            style={{ opacity: 0.14, zIndex: 0 }}
+            className="absolute right-0 top-1/2 -translate-y-1/2 h-[115%] w-auto max-w-[60%] object-contain pointer-events-none select-none max-[860px]:right-[-8%] max-[860px]:max-w-[75%]"
+            style={{ opacity: 0.16, zIndex: 0 }}
           />
 
           <h1 className="relative text-[clamp(70px,14vw,220px)] leading-[0.86] tracking-[-0.02em] max-w-[14ch]" style={{ fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif", fontWeight: 500, zIndex: 1 }}>

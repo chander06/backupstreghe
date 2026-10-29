@@ -2,6 +2,10 @@
 
 Progetto Vite/React (export Figma Make). Cloudflare: `wrangler.jsonc` esegue `npm run build` e pubblica `./dist`.
 
+## Ritocco home + popup — 2026-10-29
+- Logo della strega dietro il titolo della home: rimosso lo sfondo bianco, ora è un disegno trasparente color crema/rosso, a destra del titolo
+- Popup Halloween più piccolo
+
 ## Halloween 2026 — 2026-10-29
 - Popup "Halloween Party" con locandina all'apertura della home (sabato 31 ottobre, ore 20.30, cena + musica dal vivo con i Greenbus)
 - Pulsanti: Prenota su WhatsApp (messaggio precompilato) e Chiama

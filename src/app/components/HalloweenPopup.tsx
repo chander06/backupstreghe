@@ -60,7 +60,7 @@ export default function HalloweenPopup() {
       role="dialog"
       aria-modal="true"
       aria-labelledby="halloween-title"
-      className="fixed inset-0 z-[10000] flex items-center justify-center p-[16px] sm:p-[32px]"
+      className="fixed inset-0 z-[10000] flex items-center justify-center p-[28px] sm:p-[40px]"
       style={{
         background: 'rgba(10,8,6,0.82)',
         backdropFilter: 'blur(6px)',
@@ -71,7 +71,7 @@ export default function HalloweenPopup() {
       onClick={close}
     >
       <div
-        className="relative w-full max-w-[920px] max-h-full overflow-y-auto overscroll-contain rounded-[6px] border border-[var(--rule-strong)] grid md:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)]"
+        className="relative w-full max-w-[740px] max-h-full overflow-y-auto overscroll-contain rounded-[6px] border border-[var(--rule-strong)] grid md:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)]"
         style={{
           background: 'var(--ink)',
           boxShadow: '0 30px 80px rgba(0,0,0,.6), 0 0 0 1px rgba(224,118,61,.08), 0 0 60px rgba(224,118,61,.12)',
@@ -103,18 +103,18 @@ export default function HalloweenPopup() {
             alt="Locandina Halloween Party alle Streghe Ubriache: sabato 31 ottobre ore 20.30, cena e musica dal vivo con i Greenbus"
             width={1000}
             height={1410}
-            className="w-full h-auto max-h-[44svh] md:max-h-[86svh] object-contain mx-auto"
+            className="w-full h-auto max-h-[36svh] md:max-h-[70svh] object-contain mx-auto"
           />
         </a>
 
         {/* Info */}
-        <div className="flex flex-col justify-center px-[22px] py-[20px] sm:px-[36px] sm:py-[40px]">
+        <div className="flex flex-col justify-center px-[22px] py-[20px] sm:px-[30px] sm:py-[30px]">
           <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--ember)]">
             Evento speciale
           </span>
           <h2
             id="halloween-title"
-            className="font-[var(--serif)] text-[clamp(28px,5vw,46px)] mt-[8px] md:mt-[12px] leading-[1.05]"
+            className="font-[var(--serif)] text-[clamp(26px,4vw,38px)] mt-[8px] md:mt-[12px] leading-[1.05]"
           >
             Halloween<br className="max-md:hidden" /> Party.
           </h2>
