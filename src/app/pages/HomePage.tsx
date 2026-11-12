@@ -11,7 +11,9 @@ import pastaImg from '../../imports/IMG20260426145419.jpg';
 import porchettaImg from '../../imports/IMG-20250913-WA0000.jpg';
 import dolciImg1 from '../../imports/677adf1d-ad30-4369-b9ad-16f21ada643f.jpeg';
 import dolciImg2 from '../../imports/62b58866-da86-4b87-a40c-f9109c78f04b.jpeg';
-import cantinaImg from '../../imports/fc666f90-5247-4de2-9807-6c8601342a10.jpeg';
+import caliceImg from '../../imports/storia-calice.jpg';
+import grottaImg1 from '../../imports/grotta-1.jpg';
+import grottaImg2 from '../../imports/grotta-2.jpg';
 import logoImg from '../../imports/logo-strega-trasparente.png';
 
 type Lang = 'it' | 'en';
@@ -36,6 +38,8 @@ const T = {
     storyP2: '"Molti anni fa, quando ero piccino, venivo in questa cantina a giocare mano nella mano con mio padre. Era ancora un posto buio che profumava di vino. Le grotte avevano qualcosa di misterioso: ombre, silenzi, racconti sussurrati. Mi dicevano che qui dentro allignavano le Streghe. È proprio da quei ricordi, sospesi tra fantasia e profumo di cantina, che nasce il nome Le Streghe Ubriache." — Gianluca',
     storyP3: 'Col tempo è diventato qualcosa di più di un ristorante; un luogo dove ogni piatto e ogni calice raccontano la nostra storia di ospitalità.',
     storyCta: 'Entra in cantina',
+    grottaTag: 'La grotta',
+    grottaText: 'Ricavato nell’antica grotta dove un tempo veniva raccolta l’uva, questo spazio custodisce il fascino autentico della tradizione. Un ambiente intimo e accogliente, dove concedersi un momento di relax tra whisky ricercati, grappe, rum, cocktail e vini selezionati. Un angolo speciale in cui ogni sorso diventa un’esperienza e il tempo sembra rallentare.',
     menuTag: 'Selezione dello chef',
     menuTitle: 'Dalla nostra cucina,\ncon un tocco di creatività.',
     dishes: [
@@ -91,6 +95,8 @@ const T = {
     storyP2: '"Many years ago, when I was a child, I used to come to this cellar to play, hand in hand with my father. It was still a dark place that smelled of wine. The caves had something mysterious: shadows, silences, whispered tales. They told me that Witches dwelt inside. It is from those memories, suspended between fantasy and the scent of cellar, that the name Le Streghe Ubriache was born." — Gianluca',
     storyP3: 'Over time, it has become more than a restaurant; a place where every dish and every glass tells our story of hospitality.',
     storyCta: 'Enter the cellar',
+    grottaTag: 'The cave',
+    grottaText: 'Carved out of the ancient cave where grapes were once gathered, this space keeps the authentic charm of tradition. An intimate, welcoming setting to enjoy a moment of relaxation among fine whiskies, grappas, rums, cocktails and selected wines. A special corner where every sip becomes an experience and time seems to slow down.',
     menuTag: 'Chef\'s selection',
     menuTitle: 'From our kitchen,\nwith a touch of creativity.',
     dishes: [
@@ -363,8 +369,8 @@ export default function HomePage() {
       <section className="px-[var(--gutter)] py-[clamp(80px,12vh,160px)] relative border-t border-[var(--rule)]" id="storia">
         <div className="grid grid-cols-[1fr_1.1fr] gap-[clamp(40px,7vw,120px)] items-center max-w-[var(--maxw)] mx-auto max-[860px]:grid-cols-1">
           <ImageWithFallback
-            src={cantinaImg}
-            alt="Interno cantina del 1750"
+            src={caliceImg}
+            alt="Calice di vino sul bancone della cantina del 1750"
             className="reveal aspect-[4/5] w-full object-cover"
           />
           <div className="reveal">
@@ -386,6 +392,28 @@ export default function HomePage() {
               <Button to="/storia">{t.storyCta}</Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* La grotta */}
+      <section className="px-[var(--gutter)] py-[clamp(64px,10vh,130px)] border-t border-[var(--rule)]" aria-labelledby="grotta-title">
+        <div className="grid grid-cols-[1fr_1.15fr_1fr] gap-[clamp(24px,4vw,64px)] items-center max-w-[var(--maxw)] mx-auto max-[860px]:grid-cols-2 max-[860px]:gap-[12px]">
+          <ImageWithFallback
+            src={grottaImg1}
+            alt="Il corridoio della grotta con i tavoli"
+            className="reveal aspect-[3/5] w-full object-cover max-[860px]:order-2"
+          />
+          <div className="reveal text-center max-[860px]:col-span-2 max-[860px]:order-1 max-[860px]:mb-[24px]">
+            <span id="grotta-title" className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--ember)]">{t.grottaTag}</span>
+            <p className="mt-[20px] font-[var(--serif)] text-[clamp(19px,1.9vw,24px)] leading-[1.6] text-[var(--cream)]">
+              {t.grottaText}
+            </p>
+          </div>
+          <ImageWithFallback
+            src={grottaImg2}
+            alt="Angolo della grotta con specchio e tavolino"
+            className="reveal aspect-[3/5] w-full object-cover max-[860px]:order-3"
+          />
         </div>
       </section>
 

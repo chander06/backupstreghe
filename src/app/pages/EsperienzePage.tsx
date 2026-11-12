@@ -3,22 +3,22 @@ import Footer from '../components/Footer';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useState } from 'react';
 // Cooking Class photos
-import photo1 from '../../imports/f6442fe7-e7e6-43da-8cd6-8726ed9b8e62.jpeg';
+import photo1 from '../../imports/cooking-chef.jpg';
 import photo2 from '../../imports/ca393cba-2a16-4f0b-a20b-8c4433f3a554.jpeg';
-import photo3 from '../../imports/a1aa605e-be8d-403d-81f3-4a9b37a5a50d.png';
+import photo3 from '../../imports/f6442fe7-e7e6-43da-8cd6-8726ed9b8e62.jpeg';
 import photo4 from '../../imports/5b0e2fb5-40cc-4217-a411-03a57add0a33.png';
-import photo5 from '../../imports/d0a2a5b4-40a9-4937-9277-d465f1c7bfb4.png';
+import photo5 from '../../imports/cooking-tiramisu.jpg';
 // Drinking Class photos
 import drinkPhoto1 from '../../imports/bancone.jpg';
-import drinkPhoto2 from '../../imports/foto-5.jpg';
+import drinkPhoto2 from '../../imports/drink-spritz.jpg';
 import drinkPhoto3 from '../../imports/foto-6.jpg';
-import drinkPhoto4 from '../../imports/foto-7.jpg';
-import drinkPhoto5 from '../../imports/foto-9.jpg';
+import drinkPhoto4 from '../../imports/drink-mixing.jpg';
+import drinkPhoto5 from '../../imports/drink-grotta-tavolata.jpg';
 // Private events photos
 import cantinaEvent1 from '../../imports/b0733d04-f189-43ea-b56b-3ebc9152af4f.jpeg';
 import cantinaEvent2 from '../../imports/f2f106ed-6991-44b1-a50e-88fedc6cc92a.jpeg';
 import cantinaEvent3 from '../../imports/ab38883e-926b-4f1c-a97f-1b9184daeb38.jpeg';
-import cantinaEvent4 from '../../imports/6f66a16d-451a-4e44-8c80-8b1bf02b47d9-1.jpeg';
+import cantinaEvent4 from '../../imports/6f66a16d-451a-4e44-8c80-8b1bf02b47d9.jpeg';
 
 /* ── WhatsApp helper ─────────────────────────────────────── */
 function WAButton({ text, label, variant = 'green' }: { text: string; label: string; variant?: 'green' | 'red' | 'outline' }) {
@@ -257,7 +257,7 @@ export default function EsperienzePage() {
             />
             <ImageWithFallback
               src={drinkPhoto2}
-              alt="Cocktail e tagliere"
+              alt="Spritz al bancone"
               className="w-full aspect-square object-cover"
             />
             <ImageWithFallback
@@ -267,12 +267,12 @@ export default function EsperienzePage() {
             />
             <ImageWithFallback
               src={drinkPhoto4}
-              alt="Degustazione vini e aperitivo"
+              alt="Preparazione cocktail con bar spoon"
               className="w-full aspect-square object-cover"
             />
             <ImageWithFallback
               src={drinkPhoto5}
-              alt="Cocktail class a Le Streghe Ubriache"
+              alt="Tavolata nella grotta"
               className="w-full aspect-square object-cover"
             />
           </div>
@@ -350,8 +350,8 @@ export default function EsperienzePage() {
           <div className="grid grid-cols-2 gap-[10px]">
             <ImageWithFallback
               src={photo1}
-              alt="Cooking Class - Preparazione pinsa romana"
-              className="w-full aspect-[3/4] object-cover col-span-2"
+              alt="Cooking Class - Gianluca e lo chef in cucina"
+              className="w-full aspect-[3/4] object-cover object-[center_55%] col-span-2"
             />
             <ImageWithFallback
               src={photo2}
@@ -360,7 +360,7 @@ export default function EsperienzePage() {
             />
             <ImageWithFallback
               src={photo3}
-              alt="Mani in pasta"
+              alt="Pasta fresca appena fatta"
               className="w-full aspect-square object-cover"
             />
             <ImageWithFallback
@@ -370,7 +370,7 @@ export default function EsperienzePage() {
             />
             <ImageWithFallback
               src={photo5}
-              alt="Pinsa cotta e farcita"
+              alt="Si prepara il tiramisù"
               className="w-full aspect-square object-cover"
             />
           </div>

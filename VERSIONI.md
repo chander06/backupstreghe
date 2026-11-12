@@ -2,6 +2,15 @@
 
 Progetto Vite/React (export Figma Make). Cloudflare: `wrangler.jsonc` esegue `npm run build` e pubblica `./dist`.
 
+## Foto e testi — 2026-11-12
+- Pulizia per il limite di Figma (max 30 immagini): eliminati foto e file vecchi non più usati (vecchie pagine HTML, PDF, duplicati); restano 26 immagini
+- Storia, Cap. III: tolta la foto del dolce
+- Footer: tolto il logo delle streghe
+- Home, "La nostra storia": la foto della cantina sostituita con quella del calice
+- Home: nuova sezione "La grotta" con due foto e testo in mezzo
+- Esperienze, Drinking class: sostituite 3 foto piccole (spritz, preparazione cocktail, tavolata in grotta)
+- Esperienze, Cooking class: foto grande ora Gianluca e lo chef, la pasta passa nei riquadri piccoli, nuova foto del tiramisù
+
 ## Aggiornamento carta vini e whisky — 2026-11-12
 - Bianchi: Torretta € 39, Frascati Sup. BIO Gabriele Magno € 25, aggiunta Passerina Zoio € 18, eliminato Vigneto Filonardi
 - Rossi: Cesanese Lazio IGP BIO € 30
