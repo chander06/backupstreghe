@@ -11,6 +11,7 @@ import pastaImg from '../../imports/IMG20260426145419.jpg';
 import porchettaImg from '../../imports/IMG-20250913-WA0000.jpg';
 import dolciImg1 from '../../imports/677adf1d-ad30-4369-b9ad-16f21ada643f.jpeg';
 import dolciImg2 from '../../imports/62b58866-da86-4b87-a40c-f9109c78f04b.jpeg';
+import cantinaImg from '../../imports/fc666f90-5247-4de2-9807-6c8601342a10.jpeg';
 import caliceImg from '../../imports/storia-calice.jpg';
 import grottaImg1 from '../../imports/grotta-1.jpg';
 import grottaImg2 from '../../imports/grotta-2.jpg';
@@ -368,11 +369,18 @@ export default function HomePage() {
       {/* Story Teaser */}
       <section className="px-[var(--gutter)] py-[clamp(80px,12vh,160px)] relative border-t border-[var(--rule)]" id="storia">
         <div className="grid grid-cols-[1fr_1.1fr] gap-[clamp(40px,7vw,120px)] items-center max-w-[var(--maxw)] mx-auto max-[860px]:grid-cols-1">
-          <ImageWithFallback
-            src={caliceImg}
-            alt="Calice di vino sul bancone della cantina del 1750"
-            className="reveal aspect-[4/5] w-full object-cover"
-          />
+          <div className="reveal grid grid-cols-2 gap-[10px]">
+            <ImageWithFallback
+              src={cantinaImg}
+              alt="Interno cantina del 1750"
+              className="aspect-[3/4] w-full object-cover object-top"
+            />
+            <ImageWithFallback
+              src={caliceImg}
+              alt="Calice di vino sul bancone della cantina"
+              className="aspect-[3/4] w-full object-cover"
+            />
+          </div>
           <div className="reveal">
             <span className="font-[var(--mono)] text-[11px] tracking-[0.32em] uppercase text-[var(--cream-mute)]">{t.storyTag}</span>
             <h2 className="font-[var(--serif)] mt-[18px] text-[clamp(40px,6.5vw,96px)] leading-[1.02] tracking-[-0.01em]">

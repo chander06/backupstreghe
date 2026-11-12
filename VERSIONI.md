@@ -3,10 +3,10 @@
 Progetto Vite/React (export Figma Make). Cloudflare: `wrangler.jsonc` esegue `npm run build` e pubblica `./dist`.
 
 ## Foto e testi — 2026-11-12
-- Pulizia per il limite di Figma (max 30 immagini): eliminati foto e file vecchi non più usati (vecchie pagine HTML, PDF, duplicati); restano 26 immagini
+- Pulizia per il limite di Figma (max 30 immagini): eliminati foto e file vecchi non più usati (vecchie pagine HTML, PDF, duplicati); restano 27 immagini
 - Storia, Cap. III: tolta la foto del dolce
 - Footer: tolto il logo delle streghe
-- Home, "La nostra storia": la foto della cantina sostituita con quella del calice
+- Home, "La nostra storia": foto della cantina e foto del calice affiancate
 - Home: nuova sezione "La grotta" con due foto e testo in mezzo
 - Esperienze, Drinking class: sostituite 3 foto piccole (spritz, preparazione cocktail, tavolata in grotta)
 - Esperienze, Cooking class: foto grande ora Gianluca e lo chef, la pasta passa nei riquadri piccoli, nuova foto del tiramisù
