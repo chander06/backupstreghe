@@ -186,25 +186,25 @@ const MENU_SECTIONS: MenuSection[] = [
       {
         title: { it: 'Vini Bianchi', en: 'White Wines' },
         items: [
-          { it: 'Frascati Superiore DOCG Riserva Vigneto Filonardi — Villa Simone · Aromi di frutta matura, fiori bianchi, agrumi e leggere sfumature di mandorla, seguiti da delicate note speziate e una netta componente minerale', en: 'Frascati Superiore DOCG Riserva Vigneto Filonardi — Villa Simone · Aromas of ripe fruit, white flowers, citrus and light almond hints, followed by delicate spiced notes and a clear mineral component', price: '29,00 €' },
           { it: 'Il Mamilio Frascati Superiore DOCG — Colle Arnaldo · Bouquet di fiori bianchi ed erbe aromatiche', en: 'Il Mamilio Frascati Superiore DOCG — Colle Arnaldo · White flower & aromatic herb bouquet', price: '25,00 €' },
           { it: 'Vigneto Santa Teresa Frascati Superiore DOCG — Fontana Candida · Profumi fini e delicati di fiori, mela, salvia ed erbe aromatiche con un caratteristico fondo di mandorla dolce', en: 'Vigneto Santa Teresa Frascati Superiore DOCG — Fontana Candida · Delicate floral aromas, apple, sage and aromatic herbs with a characteristic sweet almond finish', price: '20,00 €' },
           { it: 'Apà Frascati Superiore DOCG — Torre dei Falchi · Sentori di fiori bianchi e melone giallo. D\'importante mineralità', en: 'Apà Frascati Superiore DOCG — Torre dei Falchi · Notes of white flowers and yellow melon. Notably mineral', price: '23,00 €' },
-          { it: 'Vigneto La Torretta di Valle Marciana Frascati Superiore Riserva DOCG BIO — Gabriele Magno · Sfumature floreali che donano freschezza, note di pesca, susina, albicocca ed erbe aromatiche. Balsamicità finale', en: 'Vigneto La Torretta di Valle Marciana Frascati Superiore Riserva DOCG BIO — Gabriele Magno · Fresh floral nuances with peach, plum, apricot and aromatic herbs. Balsamic finish', price: '37,00 €' },
+          { it: 'Vigneto La Torretta di Valle Marciana Frascati Superiore Riserva DOCG BIO — Gabriele Magno · Sfumature floreali che donano freschezza, note di pesca, susina, albicocca ed erbe aromatiche. Balsamicità finale', en: 'Vigneto La Torretta di Valle Marciana Frascati Superiore Riserva DOCG BIO — Gabriele Magno · Fresh floral nuances with peach, plum, apricot and aromatic herbs. Balsamic finish', price: '39,00 €' },
           { it: 'Donnaluce Bianco IGT — Poggio Le Volpi · Note di albicocca, pesca e litchi', en: 'Donnaluce Bianco IGT — Poggio Le Volpi · Apricot, peach and lychee notes', price: '30,00 €' },
-          { it: 'Frascati Superiore DOCG BIO — Gabriele Magno · Frutta esotica e pesca bianca', en: 'Frascati Superiore DOCG BIO — Gabriele Magno · Exotic fruit & white peach', price: '24,00 €' },
+          { it: 'Frascati Superiore DOCG BIO — Gabriele Magno · Frutta esotica e pesca bianca', en: 'Frascati Superiore DOCG BIO — Gabriele Magno · Exotic fruit & white peach', price: '25,00 €' },
           { it: 'Ribolla Gialla — Ca\' Tullio · Fresco e floreale con agrumi', en: 'Ribolla Gialla — Ca\' Tullio · Fresh & floral with citrus', price: '21,00 €' },
           { it: 'Horta Bombino — Terre del Veio · Menta, salvia, lime e fiori bianchi', en: 'Horta Bombino — Terre del Veio · Mint, sage, lime & white flowers', price: '19,00 €' },
           { it: 'Nexum Chardonnay Lazio IGT — Terre del Veio · Aromi di erbe dolci (timo, rosmarino, salvia e camomilla) e minerali', en: 'Nexum Chardonnay Lazio IGT — Terre del Veio · Aromas of sweet herbs (thyme, rosemary, sage and chamomile) and minerals', price: '20,00 €' },
           { it: 'Cremera Bianco Malvasia Puntinata Roma DOC — Terre del Veio · Al naso si rileva un\'immediata freschezza con profumi deliziosi e coordinati', en: 'Cremera Bianco Malvasia Puntinata Roma DOC — Terre del Veio · Immediate freshness on the nose with delightful and well-balanced aromas', price: '22,00 €' },
           { it: 'Velthur Viognier — Terre del Veio · Pesca, banana e frutti esotici', en: 'Velthur Viognier — Terre del Veio · Peach, banana & exotic fruit', price: '21,00 €' },
+          { it: 'Passerina Zoio', en: 'Passerina Zoio', price: '18,00 €' },
         ]
       },
       {
         title: { it: 'Vini Rossi', en: 'Red Wines' },
         items: [
           { it: 'Baccarossa Rosso IGT — Poggio Le Volpi · Frutti di bosco, spezie dolci e tabacco', en: 'Baccarossa Rosso IGT — Poggio Le Volpi · Wild berries, sweet spices & tobacco', price: '32,00 €' },
-          { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes', price: '28,00 €' },
+          { it: 'Cesanese Lazio IGP BIO — Gabriele Magno · Note balsamiche, cacao e spezie dolci', en: 'Cesanese Lazio IGP BIO — Gabriele Magno · Balsamic, cocoa & sweet spice notes', price: '30,00 €' },
           { it: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Note frutti di bosco con un lieve sentore fumée. Al palato fresco, ma con un tannino evidente', en: 'Cabernet Sauvignon Velthur Lazio IGP — Terre del Veio · Wild berry notes with a light smoky hint. Fresh on the palate with evident tannins', price: '26,00 €' },
           { it: 'Cremera Roma DOC Rosso — Terre del Veio · Frutta rossa matura dal finale speziato, cacao e tabacco dolce', en: 'Cremera Roma DOC Rosso — Terre del Veio · Ripe red fruit with a spiced finish, cocoa and sweet tobacco', price: '22,00 €' },
           { it: 'Polluce Nero Buono — Cincinnato · Sapore delicato, armonico con elegante complessità', en: 'Polluce Nero Buono — Cincinnato · Delicate, harmonious flavour with elegant complexity', price: '21,00 €' },
@@ -229,8 +229,9 @@ const MENU_SECTIONS: MenuSection[] = [
         items: [
           { it: 'Frascati DOC', en: 'Frascati DOC', price: '5,00 €' },
           { it: 'Ribolla Gialla dei Colli Orientali', en: 'Ribolla Gialla dei Colli Orientali', price: '6,00 €' },
-          { it: 'Malvasia del Lazio', en: 'Malvasia del Lazio', price: '5,00 €' },
-          { it: 'Cesanese + Merlot + Montepulciano', en: 'Cesanese + Merlot + Montepulciano', price: '5,00 €' },
+          { it: 'Malvasia del Lazio', en: 'Malvasia del Lazio', price: '4,00 €' },
+          { it: 'Cesanese + Merlot + Montepulciano', en: 'Cesanese + Merlot + Montepulciano', price: '4,00 €' },
+          { it: 'Rosato — Tenuta Le Quinte', en: 'Rosé — Tenuta Le Quinte', price: '4,00 €' },
           { it: 'Jadér Cuvée Vino Spumante Brut', en: 'Jadér Cuvée Brut Sparkling Wine', price: '5,00 €' },
           { it: 'Cannellino di Frascati', en: 'Cannellino di Frascati', price: '6,00 €' },
         ]
@@ -349,10 +350,9 @@ const MENU_SECTIONS: MenuSection[] = [
         title: { it: 'Whisky & Whiskey', en: 'Whisky & Whiskey' },
         pdfLink: whiskyPdf,
         items: [
-          { it: 'Lagavulin 16', en: 'Lagavulin 16', price: '12,00 €' },
-          { it: 'Nobushi Japanese Whisky', en: 'Nobushi Japanese Whisky', price: '8,00 €' },
+          { it: 'Nobushi Japanese Whisky', en: 'Nobushi Japanese Whisky', price: '9,00 €' },
           { it: 'Bulleit Bourbon', en: 'Bulleit Bourbon', price: '8,00 €' },
-          { it: 'Talisker 10', en: 'Talisker 10', price: '8,00 €' },
+          { it: 'Talisker 10', en: 'Talisker 10', price: '9,00 €' },
           { it: 'Johnny Walker Black', en: 'Johnny Walker Black', price: '7,00 €' },
           { it: 'Jack Daniel\'s N°7 / Jack Daniel\'s Honey', en: 'Jack Daniel\'s N°7 / Jack Daniel\'s Honey', price: '7,00 €' },
           { it: 'Laphroaig 10', en: 'Laphroaig 10', price: '8,00 €' },
